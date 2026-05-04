@@ -21,7 +21,7 @@ jobs:
    
     steps:
       - name: Checkout repository
-        uses: actions/checkout@v3
+        uses: actions/checkout@v5
 
       - name: Create directories for x86_64 and a53 and set PACKAGE_VERSION
         run: |
